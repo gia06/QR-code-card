@@ -1,0 +1,83 @@
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body {
+    background-color: hsl(220, 15%, 55%);
+}
+
+.main {
+    position: absolute;
+    width: 320px;
+    height: 497px;
+    /* max-height: 100%; */
+    left: calc(50% - 160px);
+    top: 152px;
+
+    /* White */
+
+    background: #FFFFFF;
+    box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+    border-radius: 20px;
+}
+
+.main img {
+    position: absolute;
+    width: 288px;
+    max-width: 100%;
+    height: 288px;
+    left: calc(50% - 144px);
+    top: 25px; 
+
+    background: #2C7DFA;
+    border-radius: 10px;
+}
+
+.main h1 {
+    position: absolute;
+    height: 56px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 56px/2 - 36.5px);
+
+    /* Heading */
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+
+    /* Dark Navy */
+
+    color: #1F314F;
+
+}
+
+.main p {
+    position: absolute;
+    height: 57px;
+    left: 5.56%;
+    right: 5.56%;
+    top: calc(50% - 57px/2 + 36px);
+    
+    /* Body */
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.1875px;
+    
+    /* Grey */
+    
+    color: #7D889E;
+}

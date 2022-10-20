@@ -1,21 +1,12 @@
-.attribution { 
-    font-size: 11px;
-    text-align: center; 
-}
-
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-}
-
 body {
-    background-color: hsl(220, 15%, 55%);
+    background-color: #d5e1ef;
 }
 
 .main {
     position: absolute;
     width: 320px;
     height: 497px;
-    /* max-height: 100%; */
+    
     left: calc(50% - 160px);
     top: 152px;
 
@@ -40,14 +31,14 @@ body {
 
 .main h1 {
     position: absolute;
-    height: 56px;
+    /* height: 56px; */
     left: 0%;
     right: 0%;
-    top: calc(50% - 56px/2 - 36.5px);
+    top: 65%;
 
     /* Heading */
 
-    font-family: 'Outfit';
+    /* font-family: 'Outfit'; */
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -62,10 +53,10 @@ body {
 
 .main p {
     position: absolute;
-    height: 57px;
+    /* height: 57px; */
     left: 5.56%;
     right: 5.56%;
-    top: calc(50% - 57px/2 + 36px);
+    top: 80%;
     
     /* Body */
     
@@ -81,3 +72,14 @@ body {
     
     color: #7D889E;
 }
+
+.attribution {
+    margin: 0 auto;
+    font-size: 11px;
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
